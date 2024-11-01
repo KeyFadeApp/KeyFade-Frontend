@@ -88,7 +88,7 @@ VITE_DELETE_BUTTON_COLOR=#FED7D7
 
 ### How to use
 
-- **1. Enter a Secret:** Go to the "Create" page and enter the text you wish to encrypt.
+- **1. Enter a Secret:** On the home page, enter the text you wish to encrypt.
 - **2. Select Expiry:** Choose an expiry duration for the encrypted link.
 - **3. Generate Link:** Click the "Generate Link" button to produce a secure, shareable link.
 - **4. Copy and Share:** Use the "Copy Link" button to copy the generated link to your clipboard, and share it as needed.
