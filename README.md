@@ -44,22 +44,19 @@
    ```
 
 2. Install dependencies:
-
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm instalL
+   ```
 
 3. Set up environment variables by creating a .env file in the project root:
-
-  ```bash
-  cp .env.example .env
-  ```
+   ```bash
+   cp .env.example .env
+   ```
 
 4. Start the development server:
-   
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 
 ### Environment Variables
 
