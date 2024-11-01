@@ -1,5 +1,7 @@
 # KeyFade
 
+![KeyFade Logo](https://public.keyfade.com/logo.png)
+
 **KeyFade** is a secure, link-based encryption tool that allows users to encrypt secrets into shareable links with a specified expiration period. This project includes a user-friendly front-end with Chakra UI, built on Next.js, and connects to a secure backend API for encryption and storage of sensitive information.
 
 ---
