@@ -1,50 +1,59 @@
-# React + TypeScript + Vite
+# KeyFade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeyFade** is a secure, link-based encryption tool that allows users to encrypt secrets into shareable links with a specified expiration period. This project includes a user-friendly front-end with Chakra UI, built on Next.js, and connects to a secure backend API for encryption and storage of sensitive information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Encrypted Link Generation**: Easily create secure, encrypted links for sensitive data.
+- **Link Expiry Options**: Choose from various expiry durations for your encrypted links.
+- **Responsive UI**: A clean and responsive interface, styled with Chakra UI and customized with Tailwind CSS.
+- **Customizable Themes and Settings**: Modify colors, labels, and other UI properties using environment variables.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Table of Contents
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. [Getting Started](#getting-started)
+2. [Installation](#installation)
+3. [Environment Variables](#environment-variables)
+4. [How to Use](#how-to-use)
+5. [Deployment](#deployment)
+6. [Contributing](#contributing)
+7. [License](#license)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Getting Started
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Prerequisites
+
+- **Node.js**: Ensure Node.js is installed on your machine.
+- **npm**: This project uses `npm` for package management.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/keyfade.git
+   cd keyfade
+   ```
+
+2. Install dependencies:
+
+  ```bash
+  npm install
+
+3. Set up environment variables by creating a .env file in the project root:
+
+  ```bash
+  cp .env.example .env
+  ```
+
+4. Start the development server:
+   
+  ```bash
+  npm run dev
+  ```
