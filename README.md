@@ -59,3 +59,33 @@
   ```bash
   npm run dev
   ```
+
+### Environment Variables
+
+URLs & Secrets
+```
+VITE_LOGO_URL=https://public.keyfade.com/logo.png
+VITE_FAVICON_URL=/favicon.ico
+VITE_BACKEND_URL=https://demo-api.keyfade.com
+VITE_FRONTEND_URL=https://demo.keyfade.com
+VITE_HMAC_SECRET=<your_hmac_shared_secret>
+```
+
+Labels
+```
+VITE_CREATE_PASSWORD_LABEL=Secret to Encrypt:
+VITE_CREATE_EXPIRY_OPTIONS_LABEL=Expiry Options:
+VITE_LINK_GENERATED_LABEL=Encrypted Link:
+VITE_LINK_COPY_LABEL=Copy Link
+VITE_SECRET_LABEL=Secret:
+```
+
+UI Colors
+```
+VITE_EXPIRY_SLIDER_COLOR=purple
+VITE_TEXT_COLOR=black
+VITE_BUTTON_COLOR=purple
+VITE_LINK_BUTTON_COLOR=purple
+VITE_NOT_FOUND_BUTTON_COLOR=purple
+VITE_DELETE_BUTTON_COLOR=#FED7D7
+```
