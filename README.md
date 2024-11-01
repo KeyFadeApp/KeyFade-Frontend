@@ -10,6 +10,7 @@
 - **Link Expiry Options**: Choose from various expiry durations for your encrypted links.
 - **Responsive UI**: A clean and responsive interface, styled with Chakra UI and customized with Tailwind CSS.
 - **Customisable Themes and Settings**: Modify colors, labels, and other UI properties using environment variables.
+- **Secure Secret Storage**: Stores secrets via the backend using Azure Key Vault.
 
 ---
 
