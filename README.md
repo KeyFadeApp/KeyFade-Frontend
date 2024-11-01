@@ -47,6 +47,7 @@
 
   ```bash
   npm install
+  ```
 
 3. Set up environment variables by creating a .env file in the project root:
 
