@@ -9,7 +9,7 @@
 - **Encrypted Link Generation**: Easily create secure, encrypted links for sensitive data.
 - **Link Expiry Options**: Choose from various expiry durations for your encrypted links.
 - **Responsive UI**: A clean and responsive interface, styled with Chakra UI and customized with Tailwind CSS.
-- **Customizable Themes and Settings**: Modify colors, labels, and other UI properties using environment variables.
+- **Customisable Themes and Settings**: Modify colors, labels, and other UI properties using environment variables.
 
 ---
 
