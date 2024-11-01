@@ -56,7 +56,7 @@
    npm run dev
    ```
 
-### Environment Variables
+### Environment Variables (Added at build-time, not run-time)
 
 URLs & Secrets
 ```
